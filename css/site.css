@@ -1,0 +1,152 @@
+        html {
+            cursor: url('../images/cursor.ani'), url('../images/cursor.png'), auto;
+        }
+
+        body{
+            /*should match footer colors*/
+            background: #ffbfcc url('../images/starbg.png') repeat fixed;
+            width: 800px;
+            height: 100vh;
+            margin: 0 auto;
+            padding-top: 115px;
+            background-blend-mode: soft-light;
+            /*overlay, soft light, screen, color burn,*/
+        }
+
+        .content{
+            width: 760px;
+            grid-template-columns: 28% 72%;
+            /*should match box colour*/
+            background-color: #fffdbf;
+            display: grid;
+            position: relative;
+            padding-bottom: 50px;
+        }
+
+        .footer {
+            width: 800px;
+            height: 40px;
+            position: fixed;
+            bottom: 0;
+            margin: 0 auto;
+            background-color: #ffbfcc;
+        }
+
+        .pageborder{
+            width: 800px;
+            height: 100%;
+            margin: 0 auto;
+            z-index: 101;
+            position: fixed;
+            top: 0;
+            pointer-events: none;
+        }
+
+        .box{
+            /*should match content colour*/
+            background-color: #fffdbf;
+            padding: 20px;
+        }
+
+        hr {
+            border: thin dashed #ffc0cb;
+            }
+
+        .speech {
+            width: 150px;
+            height: 20px;
+            margin: 0 auto;
+            position: absolute;
+            text-align: center;
+         }
+
+        .bubble {
+            width: 180px;
+            pointer-events: none;
+        }
+
+            /* NAVIGATION LINKS */
+        #navbar li a {
+            font: normal 25px "Londrina Solid", sans-serif;
+            color: #299faf;
+            text-decoration: none;                
+            display: block;
+            padding: 0px 0px 20px 0px;
+            text-shadow: 0 0 3px #ffff66, 0 0 5px #33ccff;
+        }
+
+        ul {
+            list-style-image: url(../images/imp/listimg.gif)
+        }
+
+            /* navigation link when a link is hovered over */
+        #navbar li a:hover {
+            color: white; 
+            text-shadow: 0 0 3px #ffff66, 0 0 5px #ff00ff;                
+            letter-spacing: 1.6px;
+        }
+            /* END NAVIGATION LINKS*/
+
+        .container {
+            position: relative;
+            }
+
+        h1 {
+            font: 40px "Rubik Marker Hatch", system-ui; 
+            color: #299faf;
+            text-shadow: 2px 2px 4px pink;
+        }
+
+        p  {
+            font: 18px "Short Stack", cursive;
+            color: #299faf;
+            }
+
+        a:link{
+            color: #f59ab9;
+        }
+
+        a:link:hover{
+            text-shadow: 2px 2px 4px blue;
+        }
+
+        .updates-container {
+            align-content: center;
+            max-width: 32em;
+        }
+
+        .updates-title {
+            background-color: #fff;
+            width: 8em;
+            padding: 5px 0px 5px 0px;
+            margin-left: 10em;
+            text-align: center;
+            border: 2px dashed #ffc0cb;
+            border-bottom: none;
+            font: 18px "Rubik Marker Hatch", system-ui; 
+            color: #299faf;
+        }
+
+        .updates {
+            border: 2px dashed #ffc0cb;
+            max-width: 760px;
+            background-color: #fff;
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 6px;
+            border-bottom: 2px dashed #ffc0cb;
+        }
+
+        .updates .update {
+            padding-top: 7px;
+        }
+
+        .updates .update ul {
+            margin: 4px;
+            list-style-image: url(../images/imp/mail.gif);
+        }
+
+        .updates .update b {
+            font: 15px "Rubik Marker Hatch", system-ui; 
+            color: #299faf;
+        }

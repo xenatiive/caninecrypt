@@ -1,0 +1,73 @@
+        #gal-img {
+            height: 200px;
+            padding: 10px 10px 20px 10px;
+    
+        }
+        #gal-img:hover img {
+            height: 210px;
+            width: 210px;
+            box-shadow: 0 0 5px pink, 0 0 7px blue;
+        }
+
+        .title {
+            padding-top: 10px;
+        }
+
+        .preview {
+            text-align:center;
+            margin: 10px;
+        }
+
+        .img-container{
+            padding: 15px; 
+            display: flex; 
+            /* shorthand for flex-direction and flex-wrap*/
+            flex-flow: row wrap;
+            justify-content: space-around; 
+            align-content: flex-start;
+        }          
+
+        /* NAVIGATION LINKS */
+        #art-nav li a {
+            font: 300 15px "Londrina Solid", sans-serif;
+            color: #299faf;                
+            display: block;
+            padding: 0px 0px 20px 0px;
+            text-decoration: none;
+         }
+
+        .art-nav {
+            padding-top: 10px;
+            list-style-image: url(../images/gallery/pencil.gif)
+        }
+
+            /* navigation link when a link is hovered over */
+         #art-nav li a:hover {
+            color: white; 
+            text-shadow: 2px  black;
+        }
+            /* END NAVIGATION LINKS*/
+
+        .paper {
+            width: 150px;
+            height: 20px;
+            margin: 0 auto;
+            position: absolute;
+            text-align: center;
+            pointer-events: none;
+         }
+
+        .gal-nav {
+            width: 130px;
+            height: 20px;
+            padding: 20px 0 10px 0;
+            margin: 0 auto;
+            position: absolute;
+            text-align: center;
+        }
+
+        .art-paper {
+            position: static;
+            margin: -5px 0 -10px 0;
+            pointer-events:none;
+        }

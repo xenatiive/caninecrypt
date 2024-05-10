@@ -1,0 +1,89 @@
+        .navbox {
+            text-align: center;
+            border: 2px dashed #ffc0cb;
+            width: 200px;
+            margin-left: 290px;
+            padding-top: 10px;
+        }
+        
+        h2 {
+            font: 25px "Rubik Marker Hatch", system-ui; 
+            color: #299faf;
+            text-align: center;
+            text-shadow: 2px 2px 4px pink;
+        }
+        h3 {
+            font: 18px "Rubik Marker Hatch", system-ui; 
+            color: #299faf;
+            text-align: center;
+            text-shadow: 2px 2px 4px pink;
+        }
+
+            /* comm box for comm page*/
+        .comm {
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+                border-collapse: collapse;
+                width: 90%;
+                /*keeps table from getting too big on pc screen*/
+                width: max(50%, min(500px, 100%));
+            }   
+
+            th {
+                text-align: center;
+                padding: 3px;
+                border: 1px dashed #f59ab9;
+                height: 20px;
+                width: 20px;
+                color: #299faf;
+                font-size: 14px;
+            }
+
+            td {
+                text-align: center;
+                padding: 3px;
+                border: 1px dashed #f59ab9;
+                height: 20px;
+                width: 20px;
+                color: #299faf;
+            }
+
+        /* comm-specific box */
+            .comm-box {
+                background-color: #ffbfcc;
+                border: 1px solid #f59ab9;
+                padding: 10px;
+                font-size: 13px;
+                /*keeps table bg box from getting too big on pc screen*/
+                width: max(50%, min(400px, 100%));
+            }
+
+            .comm-list {
+                background-color: white;
+                /*keeps boxes in center*/
+                display: inline-block;
+                border: 1px solid red;
+                padding: 10px;
+                margin: 1vh 2vh 1vh 5vh;
+                font-size: 13px;
+                /*keeps table bg box from getting too big on pc screen*/
+                width: max(50%, min(400px, 100%));
+            }
+        .comm-status {
+            border: 2px dashed #ffc0cb;
+            width: 31em;
+            margin: 10px;
+            background-color: #fff;
+            padding: 6px;
+            border-bottom: 2px dashed #ffc0cb;
+            font: 16px "Rubik Marker Hatch", system-ui; 
+            color: #299faf;
+            text-align: center;
+        }
+
+        .comm-status table, th, td {
+            border: 2px dashed #ffc0cb;
+        }
